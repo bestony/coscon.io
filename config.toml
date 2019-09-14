@@ -1,5 +1,5 @@
 baseURL = "https://coscon.io/"
-languageCode = "en-us"
+languageCode = "en"
 title = "COSCon'19"
 theme = "devfest-theme-hugo"
 
@@ -28,3 +28,6 @@ enableMissingTranslationPlaceholders = true
     languageName = "zh"
 [languages.zh.params]
     description = "COSCON 中文描述"
+
+[taxonomies]
+  tag = "tags"
