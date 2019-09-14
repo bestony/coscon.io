@@ -8,9 +8,7 @@ deploy:
   provider: pages
   skip_cleanup: true
   github_token: $GITHUB_TOKEN  # Set in the settings page of your repository, as a secure variable
-  keep_history: true
-  local_dir: public/
+  local_dir: public
   fqdn: $DOMAIN
-  committer_from_gh: true
   on:
     branch: master
