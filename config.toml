@@ -1,0 +1,30 @@
+baseURL = "https://coscon.io/"
+languageCode = "en-us"
+title = "COSCon'19"
+theme = "devfest-theme-hugo"
+
+## theme
+enableEmoji = true
+enableRobotsTXT = true
+enableMissingTranslationPlaceholders = true
+
+[params]
+    title = "COSCon'19"
+    date = "2019-11-2,3"
+    description = "The DevFest, or 'Developers Festival', is a technical conference for developers. It is aimed at students, professionals or simply curious technophiles."
+    email = "contact@devfesttoulouse.fr"
+    keywords = "event, gdg, gde, devfest, google, programming, android, chrome, developers, web, cloud, androiddev"
+    copyright = "We :heart:️ chocolatines"
+    cfpUrl = "https://conference-hall.io/public/event/HJRThubF4uYPkb7jSUxi"
+    subscriptionUrl = "http://eepurl.com/dps1j5"
+    themeColor = "#673ab7"
+[languages]
+[languages.en]
+    weight = 1
+    languageName = "en"
+
+[languages.zh]
+    weight = 2
+    languageName = "zh"
+[languages.zh.params]
+    description = "COSCON 中文描述"
